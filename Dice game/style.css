@@ -1,0 +1,143 @@
+body,
+h1,
+h3 {
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+.welcome {
+    padding: 30px 0px;
+    font-weight: 700;
+    background-color: brown;
+    text-align: center;
+}
+
+.btn-div {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    /* color: rgb(12, 12, 12); */
+    background-color: rgb(67, 7, 146);
+    margin: 5px auto;
+    padding: 10px 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.main-screen {
+    /* text-align: center; */
+    margin: 0 auto;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* background-color: rgb(218, 42, 194); */
+    height: 300px;
+    width: 600px;
+}
+
+
+.player1 {
+    position: relative;
+    /* background-color: rgb(51, 128, 128); */
+    background-color: black;
+    width: 250px;
+}
+
+.player2 {
+    background-color: rgb(31, 30, 30);
+    position: relative;
+    /* background-color: rgb(110, 236, 99); */
+    width: 250px;
+}
+/* just some random color name and value.......xD */
+.circle-red {
+    background-color: orange;
+}
+
+.circle-blue {
+    background-color: rgb(221, 34, 34);
+}
+
+.circle-pink {
+    background-color: rgb(204, 218, 16);
+}
+
+.circle-green {
+    background-color: rgb(54, 240, 64);
+}
+
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    /* background-color: rgb(233, 29, 29); */
+}
+
+.crc-bottomRight {
+    margin: 235px 180px;
+}
+
+.crc-bottomLeft {
+    margin: 235px 5px;
+}
+
+.crc-topRight {
+    margin: 5px 180px;
+}
+
+.crc-topLeft {
+    margin: 5px;
+}
+
+.crc-middle {
+    margin: 120px 95px;
+}
+
+.crc-leftMiddle {
+    margin: 120px 5px;
+}
+
+.crc-rightMiddle {
+    margin: 120px 180px;
+}
+
+.footer {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0 0 0;
+    background-color: aqua;
+}
+
+.score1,
+.score2 {
+    background-color: rgb(234, 234, 247);
+    width: 50px;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border-radius: 30px;
+    align-self: center;
+    font-weight: 800;
+
+}
+
+.total{
+    /* background-color: rgb(248, 211, 211); */
+    padding:20px 0 0 0;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
